@@ -1,0 +1,121 @@
+body {
+	font-family: 'Times New Roman', Times, serif;
+	margin: auto;
+	width: 85%;
+	max-width: 1000px;
+	text-align: justify;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+section {
+	margin: auto;
+	width: 85%;
+	max-width: 1000px;
+}
+
+header {
+	background-image: url('header.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 250px; 
+}
+
+h1{
+	color: #000000;
+}
+
+h2{
+		color: #000000;
+}
+
+img {
+	border: 2px solid #1f1e1d;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 5px 15px;
+	width: 15em; 
+	background-color: rgb(133, 132, 132);
+}
+
+.balra {
+	float: left;
+}
+
+.jobbra {
+	float: right;
+}
+
+q {
+	font-style: italic;
+}
+
+li {
+	margin-bottom: 25px;
+	list-style-image: url(jel.png);
+}
+
+footer{
+	background-color: #000000;
+	background-image: url('footer.jpg');
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 55px; 
+	height: 60px;
+	padding-top: 20px;
+	margin-bottom: 0px;
+	font-size: 0.8em;
+	color: #ffffff;
+}
+
+a {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#table {
+	border: 3px solid #000000;
+	margin-right: 20px;
+	background-color: rgb(148, 146, 146);
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid black;
+	padding:  15px;
+	text-align: center;
+}
+
+#logback{
+	width: 520px;
+	background-color:rgba(102, 102, 102, 0.975);
+	height: 330px;
+	border: 3px solid black;
+	border-radius: 10px;
+	margin: 5px 15px;
+	padding: 5px;
+	padding: 35px;
+	margin: auto;
+}
+	
+	button{
+		float: right;
+		border: radius 10px; ;
+	}
+	.form-control{
+		background-color: rgba(255, 255, 255, 0.66);
+		border-radius: 10px;
+	}
+	#exampleCheck1{
+		background-color: rgba(255, 255, 255, 0.66);
+		border-radius: 15px;
+	}
+
+@media screen and (max-width:600px) {
+  .balra, .jobbra {
+	float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
